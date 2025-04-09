@@ -237,7 +237,7 @@ nav ul li a.active {
 .experience-hero {
     padding: 5rem 2rem;
     background-color: var(--gray-light);
-    text-align: center;
+    text-align: left;
 }
 
 .animate-text {
