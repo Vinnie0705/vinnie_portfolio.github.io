@@ -18,6 +18,9 @@
 
 <body>
     <header>
+        <div class="site-title">
+            <a href="index.html">Vinnie's Portfolio</a>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -240,10 +243,12 @@
         </section>
 
     <!-- Lightbox Modal -->
-    <div class="lightbox" id="lightbox">
+    <div id="lightbox" class="lightbox">
         <span class="close-lightbox">&times;</span>
-        <img src="" alt="" id="lightbox-img">
+        <img id="lightbox-img" src="" alt="Lightbox Image">
         <div class="lightbox-caption"></div>
+        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
     </div>
 
     <section id="contact">
@@ -287,16 +292,6 @@
     </button>
 
     <script src="script.js"></script>
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5XE1HB2SH6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5XE1HB2SH6');
-</script>
 </body>
 
 </html>
