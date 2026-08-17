@@ -484,6 +484,27 @@ nav ul li a.active {
     padding: 1.5rem;
 }
 
+/* Fyp Project */
+.featured-project{
+    position:relative;
+    box-shadow:0 8px 25px rgba(255,215,0,0.2);
+}
+
+.project-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    background:#111;
+    color:#fff;
+    transition:0.3s;
+}
+
+.project-btn:hover{
+    transform:translateY(-2px);
+}
+
 /* ===== SKILLS SECTION ===== */
 .skills-hero {
     text-align: center;
